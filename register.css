@@ -1,0 +1,90 @@
+body{
+    background-image: url('atom.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.register{
+   border:2px solid white;
+    width: 400px;
+    margin-top: 100px;
+    padding: 50px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.register h1{
+     
+    color:antiquewhite;
+    text-transform: Uppercase;
+    text-shadow: 5px 2px 3px rgb(209, 16, 16);
+    text-align: center;
+    font-size: 40px;
+    margin: 10px;
+    
+}
+.register input{
+    display: hidden;
+    padding:15px;
+    width: 89%;
+    margin-bottom: 20px;
+    outline: none;
+    border-radius: 10px;
+}
+.btn{
+    padding:10px;
+    border-radius: 10px;;
+}
+.reg{
+    margin-top: 20px;
+}
+.topnav {
+    
+    justify-content: space-between;
+    padding: 20px;
+    overflow: hidden;
+    overflow: hidden;
+    border:2px solid white;
+    width: 500px;
+    border-radius: 20px;
+    float: none;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+.topnav a {
+    text-decoration:none;
+     padding: 15px 30px;
+     font-size: 17px;
+  }
+  
+
+ /* .topnav a {
+    float: right;
+    display:block;
+    color: #2713da;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 20px;
+    text-align: center;
+}  */
+  
+  .topnav a:hover {
+    background-color:#0d91c5;
+    color: rgb(0, 2, 3);
+    border-radius: 20px;
+    
+  }
+  
+  /*.topnav a.active {
+    //background-color: #04AA6D;
+    //color: rgb(224, 11, 11);
+  }*/
+  
+  .topnav .icon {
+    display: block;
+    justify-content: space-between;
+  }
+  
