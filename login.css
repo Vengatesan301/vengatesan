@@ -1,0 +1,106 @@
+body{
+    background-image:url('header-bg.jpg')
+}
+.login{
+    border:2px solid bisque;
+    width: 400px;
+    overflow: hidden;
+    padding:40px;
+    margin-left: 10px;
+    margin-top: 200px;
+    border-radius: 20px;
+}
+.login h1{
+    text-transform: uppercase;
+    text-shadow: 5px 2px 1px rgb(251,252,252);
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10px;
+
+}
+.login input{
+    width: 89%;
+    display: block;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    outline: none;
+
+}
+.loginto{
+    width:25%;
+    display:block;
+    padding:10px;
+    border-radius: 10px;
+
+}
+.notr{
+    overflow: hidden;
+    text-align: center;
+    margin-top: 20px;
+}
+.topnav {
+    
+    justify-content: space-between;
+    padding: 20px;
+    overflow: hidden;
+    overflow: hidden;
+    border:2px solid white;
+    width: 500px;
+    border-radius: 20px;
+    float: none;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+.topnav a {
+    text-decoration:dotted;
+     padding: 15px 30px;
+     font-size: 17px;
+  }
+  
+
+ /* .topnav a {
+    float: right;
+    display:block;
+    color: #2713da;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 20px;
+    text-align: center;
+}  */
+  
+  .topnav a:hover {
+    background-color:#050116;
+    color: rgb(15, 223, 181);
+    border-radius: 20px;
+    
+    
+  }
+  
+  /*.topnav a.active {
+    //background-color: #04AA6D;
+    //color: rgb(224, 11, 11);
+  }*/
+  
+  .topnav .icon {
+    display: block;
+    justify-content: space-between;
+  }
+  .home h1{
+    text-transform:uppercase;
+    text-shadow: 5px 2px 1px rgb(185, 6, 6);
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-top: 150px;
+    color:rgb(38, 160, 8)
+
+}
+  
+
+  
